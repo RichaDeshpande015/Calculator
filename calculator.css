@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(39, 37, 37);
+    font-family: "Montserrat";
+}
+button{
+    width: 40%;
+    padding: 5px 15px;
+    margin: 2px 2px;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    outline:#000;
+    border:auto;
+    box-shadow: 3px 4px 4px -2px rgb(10, 10, 10);
+    background-color: rgb(44, 41, 43);
+}
+button:hover{
+    cursor: pointer;
+    background-color:#4f29d7a3 ;
+}
+.tit-le{
+    font-family: "Montserrat";
+    font-size: large;
+}
+
+.frame{
+    width: 400px;
+    padding-bottom: 10px ;
+    box-shadow: 8px 12px 12px -2px rgba(217, 220, 220, 0.3);
+    background-color:skyblue;
+}
+.input-display{
+    width: 100%;
+    height: 80px;
+    border: none;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #11658b 0%, #e6f5f9 100%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 7px;
+    text-align: right;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    padding: 29px 7px;
+    text-align: end;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.btn-operator{
+    padding: auto 0;
+    font-size:1.5rem ;
+    background-color: rgb(25, 92, 151);
+}
+.btn-operator:hover{
+    background-color: #1f4343 ;
+    color: #fff;
+}
+#clear:hover{
+    background-color: #EB5353;
+    transition: 0.35s ease-in-out;
+}
+#delete:hover{
+    background-color: goldenrod;
+    transition: 0.35s ease-in-out;
+}
+.btn-equal{
+    background-color: #f50606;
+    font-size: 1.5rem;
+
+}
+.btn-equal:hover{
+    background-color: #EEEEEE ;
+    color: #000;
+    transition: 0.35s ease-in-out;
+}
